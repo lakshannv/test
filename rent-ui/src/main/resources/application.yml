@@ -5,7 +5,5 @@ security:
       client-secret: 1234
       user-authorization-uri: http://localhost:9191/oauth/authorize
       access-token-uri: http://localhost:9191/oauth/token
-      registered-redirect-uri: http://localhost:8080/login
-      pre-established-redirect-uri: http://localhost:8080/login
     resource:
       token-info-uri: http://localhost:9191/oauth/check_token
